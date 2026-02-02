@@ -26,8 +26,8 @@ cd <repo>
 Regla de nombre de la carpeta
 
 El nombre de la carpeta se construye así:
-	- Por cada integrante, tomad las dos primeras letras del primer apellido (en minúsculas).
-	- Concatenadlo todo en el mismo orden en el que aparecéis en la lista de miembros (alfabético).
+* Por cada integrante, tomad las dos primeras letras del primer apellido (en minúsculas).
+* Concatenadlo todo en el mismo orden en el que aparecéis en la lista de miembros (alfabético).
 
 Ejemplo:
 	- Integrante 1: Ana García López → ga 
