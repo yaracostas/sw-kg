@@ -26,12 +26,12 @@ cd <repo>
 Regla de nombre de la carpeta
 
 El nombre de la carpeta se construye así:
-	•	Por cada integrante, tomad las dos primeras letras de cada apellido (en minúsculas).
-	•	Concatenadlo todo en el mismo orden en el que aparecéis en la lista de miembros.
+	•	Por cada integrante, tomad las dos primeras letras del primer apellido (en minúsculas).<br>
+	•	Concatenadlo todo en el mismo orden en el que aparecéis en la lista de miembros (alfabético).
 
 Ejemplo:
-	•	Integrante 1: Ana García López → ga 
-	•	Integrante 2: Mario Pérez Díaz → pe
+	•	Integrante 1: Ana García López → ga <br>
+	•	Integrante 2: Mario Pérez Díaz → pe <br>
 	•	Carpeta del grupo: gape
 
 Crear la carpeta
@@ -49,7 +49,7 @@ groups/gape/
 
 ## Añadir el archivo template_groups.yaml dentro de la carpeta
 
-Dentro de vuestra carpeta de grupo, cread info.yaml usando esta plantilla mínima:
+Dentro de vuestra carpeta de grupo, cread info.yaml usando la plantilla que se encuentra en la carpeta raíz del repositorio.
 
 ⸻
 
