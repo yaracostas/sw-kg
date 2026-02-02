@@ -1,17 +1,17 @@
-Paso 1: Registro del grupo
+# Paso 1: Registro del grupo
 
 Este primer paso sirve para registrar vuestro grupo y dejar trazabilidad en GitHub de quiénes sois y qué dataset vais a usar.
 
 ⸻
 
-1) Hacer un fork del repositorio
+## Hacer un fork del repositorio
 	1.	Entrad en el repositorio de la asignatura.
 	2.	Pulsad Fork (arriba a la derecha) para crear una copia en vuestra cuenta.
 	3.	En vuestro fork, comprobad que estáis en la rama principal (main o master, según el repo).
 
 ⸻
 
-2) Clonar vuestro fork en local
+## Clonar vuestro fork en local
 
 En vuestro ordenador:
 
@@ -26,7 +26,7 @@ git fetch upstream
 
 ⸻
 
-3) Crear una carpeta para el grupo
+## Crear una carpeta para el grupo
 
 Regla de nombre de la carpeta
 
@@ -52,13 +52,13 @@ groups/gape/
 
 ⸻
 
-4) Añadir el archivo template_groups.yaml dentro de la carpeta
+## Añadir el archivo template_groups.yaml dentro de la carpeta
 
 Dentro de vuestra carpeta de grupo, cread info.yaml usando esta plantilla mínima:
 
 ⸻
 
-5) Hacer commit de los cambios:
+## Hacer commit de los cambios:
 
 Añadid y confirmad:
 
@@ -68,14 +68,14 @@ git commit -m "Add group info <nombre_grupo>"
 
 ⸻
 
-6) Subir la rama a vuestro fork
+## Subir la rama a vuestro fork
 
 git push
 
 
 ⸻
 
-7) Abrir un Pull Request (PR) hacia el repositorio original
+## Abrir un Pull Request (PR) hacia el repositorio original
 	1.	En GitHub, id a vuestro fork.
 	2.	Veréis un botón para Compare & pull request (o creadlo desde Pull requests).
 	4.	Título recomendado del PR: [Step1] Add group <nombre_carpeta>
