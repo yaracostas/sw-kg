@@ -26,13 +26,13 @@ cd <repo>
 Regla de nombre de la carpeta
 
 El nombre de la carpeta se construye así:
-	•	Por cada integrante, tomad las dos primeras letras del primer apellido (en minúsculas).<br>
-	•	Concatenadlo todo en el mismo orden en el que aparecéis en la lista de miembros (alfabético).
+	- Por cada integrante, tomad las dos primeras letras del primer apellido (en minúsculas).
+	- Concatenadlo todo en el mismo orden en el que aparecéis en la lista de miembros (alfabético).
 
 Ejemplo:
-	•	Integrante 1: Ana García López → ga <br>
-	•	Integrante 2: Mario Pérez Díaz → pe <br>
-	•	Carpeta del grupo: gape
+	- Integrante 1: Ana García López → ga 
+	- Integrante 2: Mario Pérez Díaz → pe 
+	- Carpeta del grupo: gape
 
 Crear la carpeta
 
@@ -60,7 +60,7 @@ Añadid y confirmad:
 ```bash
 git add .
 git commit -m "Add group info [nombre_grupo]"
-```
+``
 
 ⸻
 
