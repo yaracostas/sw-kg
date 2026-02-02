@@ -14,15 +14,10 @@ Este primer paso sirve para registrar vuestro grupo y dejar trazabilidad en GitH
 ## Clonar vuestro fork en local
 
 En vuestro ordenador:
-
+```bash
 git clone https://github.com/<vuestro-usuario>/sw-kg.git
 cd <repo>
-
-(Opcional, pero recomendado) Añadid el repositorio original como upstream para poder actualizar cambios:
-
-git remote add upstream https://github.com/usc-gria/sw-kg.git
-git fetch upstream
-
+```
 
 ⸻
 
@@ -43,7 +38,7 @@ Crear la carpeta
 
 En el repositorio, cread una carpeta dentro de teams/. Por defecto:
 
-groups/<nombre_carpeta>/
+groups/[nombre_grupo]/
 
 Por ejemplo:
 
@@ -62,16 +57,17 @@ Dentro de vuestra carpeta de grupo, cread info.yaml usando esta plantilla mínim
 
 Añadid y confirmad:
 
+```bash
 git add .
-git commit -m "Add group info <nombre_grupo>"
-
+git commit -m "Add group info [nombre_grupo]"
+```
 
 ⸻
 
 ## Subir la rama a vuestro fork
-
+```bash
 git push
-
+```
 
 ⸻
 
