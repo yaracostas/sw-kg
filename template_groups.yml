@@ -1,8 +1,8 @@
 members:
-  - name: "Nombre Apellidos"
-    github: "https://github.com/usuario"
-  - name: "Nombre Apellidos"
-    github: "https://github.com/usuario"
+  - name: "Santiago Pereira Olmeda"
+    github: "https://github.com/santipereeira"
+  - name: "Gonzalo Landeira Rodríguez"
+    github: "https://github.com/gonzalolandeira"
 
 dataset:
   name: "Nombre del dataset"
