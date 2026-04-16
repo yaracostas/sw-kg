@@ -1,0 +1,460 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://semweb.mmlab.be/ns/rml#logicalSource
+<http://semweb.mmlab.be/ns/rml#logicalSource> rdf:type owl:AnnotationProperty .
+
+
+###  http://semweb.mmlab.be/ns/rml#reference
+<http://semweb.mmlab.be/ns/rml#reference> rdf:type owl:AnnotationProperty .
+
+
+###  http://semweb.mmlab.be/ns/rml#referenceFormulation
+<http://semweb.mmlab.be/ns/rml#referenceFormulation> rdf:type owl:AnnotationProperty .
+
+
+###  http://semweb.mmlab.be/ns/rml#source
+<http://semweb.mmlab.be/ns/rml#source> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#constant
+<http://www.w3.org/ns/r2rml#constant> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#datatype
+<http://www.w3.org/ns/r2rml#datatype> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#objectMap
+<http://www.w3.org/ns/r2rml#objectMap> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#parentTriplesMap
+<http://www.w3.org/ns/r2rml#parentTriplesMap> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#predicateMap
+<http://www.w3.org/ns/r2rml#predicateMap> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#predicateObjectMap
+<http://www.w3.org/ns/r2rml#predicateObjectMap> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#subjectMap
+<http://www.w3.org/ns/r2rml#subjectMap> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#template
+<http://www.w3.org/ns/r2rml#template> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#termType
+<http://www.w3.org/ns/r2rml#termType> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://semweb.mmlab.be/ns/rml#LogicalSource
+<http://semweb.mmlab.be/ns/rml#LogicalSource> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/r2rml#ObjectMap
+<http://www.w3.org/ns/r2rml#ObjectMap> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/r2rml#PredicateMap
+<http://www.w3.org/ns/r2rml#PredicateMap> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/r2rml#RefObjectMap
+<http://www.w3.org/ns/r2rml#RefObjectMap> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/r2rml#SubjectMap
+<http://www.w3.org/ns/r2rml#SubjectMap> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/r2rml#TriplesMap
+<http://www.w3.org/ns/r2rml#TriplesMap> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://example.com/concellos_0
+<http://example.com/concellos_0> rdf:type owl:NamedIndividual ,
+                                          <http://www.w3.org/ns/r2rml#TriplesMap> ;
+                                 <http://semweb.mmlab.be/ns/rml#logicalSource> _:genid2 ;
+                                 <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid3 ,
+                                                                                 _:genid6 ,
+                                                                                 _:genid9 ,
+                                                                                 _:genid12 ;
+                                 <http://www.w3.org/ns/r2rml#subjectMap> _:genid15 .
+
+_:genid2 rdf:type <http://semweb.mmlab.be/ns/rml#LogicalSource> ;
+          <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> ;
+          <http://semweb.mmlab.be/ns/rml#source> "clean_entidades_deportivas.csv" .
+
+_:genid3 <http://www.w3.org/ns/r2rml#objectMap> _:genid4 ;
+          <http://www.w3.org/ns/r2rml#predicateMap> _:genid5 .
+
+_:genid6 <http://www.w3.org/ns/r2rml#objectMap> _:genid7 ;
+          <http://www.w3.org/ns/r2rml#predicateMap> _:genid8 .
+
+_:genid9 <http://www.w3.org/ns/r2rml#objectMap> _:genid10 ;
+          <http://www.w3.org/ns/r2rml#predicateMap> _:genid11 .
+
+_:genid12 <http://www.w3.org/ns/r2rml#objectMap> _:genid13 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid14 .
+
+_:genid15 rdf:type <http://www.w3.org/ns/r2rml#SubjectMap> ;
+           <http://www.w3.org/ns/r2rml#template> "http://example.org/resource/concello/{codigo_concello}" .
+
+_:genid4 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+          <http://www.w3.org/ns/r2rml#template> "{wikidata_concellos} " ;
+          <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+
+_:genid5 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+          <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#paxinaWeb> .
+
+_:genid7 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+          <http://semweb.mmlab.be/ns/rml#reference> "codigo_concello" .
+
+_:genid8 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+          <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#codigoConcello> .
+
+_:genid10 rdf:type <http://www.w3.org/ns/r2rml#RefObjectMap> ;
+           <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://example.com/provincias_0> .
+
+_:genid11 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#estaEn> .
+
+_:genid13 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#Concello> .
+
+_:genid14 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> rdf:type .
+
+
+###  http://example.com/deporte_0
+<http://example.com/deporte_0> rdf:type owl:NamedIndividual ,
+                                        <http://www.w3.org/ns/r2rml#TriplesMap> ;
+                               <http://semweb.mmlab.be/ns/rml#logicalSource> _:genid16 ;
+                               <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid17 ,
+                                                                               _:genid20 ;
+                               <http://www.w3.org/ns/r2rml#subjectMap> _:genid23 .
+
+_:genid16 rdf:type <http://semweb.mmlab.be/ns/rml#LogicalSource> ;
+           <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> ;
+           <http://semweb.mmlab.be/ns/rml#source> "clean_entidades_deportivas.csv" .
+
+_:genid17 <http://www.w3.org/ns/r2rml#objectMap> _:genid18 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid19 .
+
+_:genid20 <http://www.w3.org/ns/r2rml#objectMap> _:genid21 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid22 .
+
+_:genid23 rdf:type <http://www.w3.org/ns/r2rml#SubjectMap> ;
+           <http://www.w3.org/ns/r2rml#template> "http://example.org/resource/deporte/{deporte}" .
+
+_:genid18 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#Deporte> .
+
+_:genid19 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> rdf:type .
+
+_:genid21 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://www.w3.org/ns/r2rml#template> "{web_modalidades} " ;
+           <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+
+_:genid22 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#paxinaWeb> .
+
+
+###  http://example.com/enderezo_0
+<http://example.com/enderezo_0> rdf:type owl:NamedIndividual ,
+                                         <http://www.w3.org/ns/r2rml#TriplesMap> ;
+                                <http://semweb.mmlab.be/ns/rml#logicalSource> _:genid24 ;
+                                <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid25 ,
+                                                                                _:genid28 ,
+                                                                                _:genid31 ,
+                                                                                _:genid34 ;
+                                <http://www.w3.org/ns/r2rml#subjectMap> _:genid37 .
+
+_:genid24 rdf:type <http://semweb.mmlab.be/ns/rml#LogicalSource> ;
+           <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> ;
+           <http://semweb.mmlab.be/ns/rml#source> "clean_entidades_deportivas.csv" .
+
+_:genid25 <http://www.w3.org/ns/r2rml#objectMap> _:genid26 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid27 .
+
+_:genid28 <http://www.w3.org/ns/r2rml#objectMap> _:genid29 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid30 .
+
+_:genid31 <http://www.w3.org/ns/r2rml#objectMap> _:genid32 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid33 .
+
+_:genid34 <http://www.w3.org/ns/r2rml#objectMap> _:genid35 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid36 .
+
+_:genid37 rdf:type <http://www.w3.org/ns/r2rml#SubjectMap> ;
+           <http://www.w3.org/ns/r2rml#template> "http://example.org/resource/enderezo/{codigo_postal}" .
+
+_:genid26 rdf:type <http://www.w3.org/ns/r2rml#RefObjectMap> ;
+           <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://example.com/concellos_0> .
+
+_:genid27 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#estaEn> .
+
+_:genid29 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#Enderezo> .
+
+_:genid30 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> rdf:type .
+
+_:genid32 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://semweb.mmlab.be/ns/rml#reference> "direcion" .
+
+_:genid33 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#nomeRua> .
+
+_:genid35 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://semweb.mmlab.be/ns/rml#reference> "codigo_postal" ;
+           <http://www.w3.org/ns/r2rml#datatype> xsd:int .
+
+_:genid36 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#codigoPostal> .
+
+
+###  http://example.com/equipos_0
+<http://example.com/equipos_0> rdf:type owl:NamedIndividual ,
+                                        <http://www.w3.org/ns/r2rml#TriplesMap> ;
+                               <http://semweb.mmlab.be/ns/rml#logicalSource> _:genid38 ;
+                               <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid39 ,
+                                                                               _:genid42 ,
+                                                                               _:genid45 ,
+                                                                               _:genid48 ,
+                                                                               _:genid51 ,
+                                                                               _:genid54 ,
+                                                                               _:genid57 ,
+                                                                               _:genid60 ,
+                                                                               _:genid63 ,
+                                                                               _:genid66 ,
+                                                                               _:genid69 ;
+                               <http://www.w3.org/ns/r2rml#subjectMap> _:genid72 .
+
+_:genid38 rdf:type <http://semweb.mmlab.be/ns/rml#LogicalSource> ;
+           <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> ;
+           <http://semweb.mmlab.be/ns/rml#source> "clean_entidades_deportivas.csv" .
+
+_:genid39 <http://www.w3.org/ns/r2rml#objectMap> _:genid40 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid41 .
+
+_:genid42 <http://www.w3.org/ns/r2rml#objectMap> _:genid43 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid44 .
+
+_:genid45 <http://www.w3.org/ns/r2rml#objectMap> _:genid46 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid47 .
+
+_:genid48 <http://www.w3.org/ns/r2rml#objectMap> _:genid49 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid50 .
+
+_:genid51 <http://www.w3.org/ns/r2rml#objectMap> _:genid52 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid53 .
+
+_:genid54 <http://www.w3.org/ns/r2rml#objectMap> _:genid55 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid56 .
+
+_:genid57 <http://www.w3.org/ns/r2rml#objectMap> _:genid58 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid59 .
+
+_:genid60 <http://www.w3.org/ns/r2rml#objectMap> _:genid61 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid62 .
+
+_:genid63 <http://www.w3.org/ns/r2rml#objectMap> _:genid64 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid65 .
+
+_:genid66 <http://www.w3.org/ns/r2rml#objectMap> _:genid67 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid68 .
+
+_:genid69 <http://www.w3.org/ns/r2rml#objectMap> _:genid70 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid71 .
+
+_:genid72 rdf:type <http://www.w3.org/ns/r2rml#SubjectMap> ;
+           <http://www.w3.org/ns/r2rml#template> "http://example.org/resource/equipo/{nome}" .
+
+_:genid40 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#Equipo> .
+
+_:genid41 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> rdf:type .
+
+_:genid43 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://semweb.mmlab.be/ns/rml#reference> "nome" .
+
+_:genid44 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#nome> .
+
+_:genid46 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://semweb.mmlab.be/ns/rml#reference> "tipo_entidade" .
+
+_:genid47 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#tipoEntidade> .
+
+_:genid49 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://semweb.mmlab.be/ns/rml#reference> "telefono1" .
+
+_:genid50 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#telefono1> .
+
+_:genid52 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://semweb.mmlab.be/ns/rml#reference> "telefono2" .
+
+_:genid53 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#telefono2> .
+
+_:genid55 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://semweb.mmlab.be/ns/rml#reference> "nif" .
+
+_:genid56 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#nif> .
+
+_:genid58 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://semweb.mmlab.be/ns/rml#reference> "data_alta" ;
+           <http://www.w3.org/ns/r2rml#datatype> xsd:date .
+
+_:genid59 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#dataAlta> .
+
+_:genid61 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://semweb.mmlab.be/ns/rml#reference> "web" .
+
+_:genid62 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#paxinaWeb> .
+
+_:genid64 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://semweb.mmlab.be/ns/rml#reference> "numero" ;
+           <http://www.w3.org/ns/r2rml#datatype> xsd:str .
+
+_:genid65 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#numero> .
+
+_:genid67 rdf:type <http://www.w3.org/ns/r2rml#RefObjectMap> ;
+           <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://example.com/deporte_0> .
+
+_:genid68 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#xoga> .
+
+_:genid70 rdf:type <http://www.w3.org/ns/r2rml#RefObjectMap> ;
+           <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://example.com/enderezo_0> .
+
+_:genid71 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#resideEn> .
+
+
+###  http://example.com/especialidade_0
+<http://example.com/especialidade_0> rdf:type owl:NamedIndividual ,
+                                              <http://www.w3.org/ns/r2rml#TriplesMap> ;
+                                     <http://semweb.mmlab.be/ns/rml#logicalSource> _:genid73 ;
+                                     <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid74 ,
+                                                                                     _:genid77 ,
+                                                                                     _:genid80 ;
+                                     <http://www.w3.org/ns/r2rml#subjectMap> _:genid83 .
+
+_:genid73 rdf:type <http://semweb.mmlab.be/ns/rml#LogicalSource> ;
+           <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> ;
+           <http://semweb.mmlab.be/ns/rml#source> "clean_entidades_deportivas.csv" .
+
+_:genid74 <http://www.w3.org/ns/r2rml#objectMap> _:genid75 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid76 .
+
+_:genid77 <http://www.w3.org/ns/r2rml#objectMap> _:genid78 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid79 .
+
+_:genid80 <http://www.w3.org/ns/r2rml#objectMap> _:genid81 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid82 .
+
+_:genid83 rdf:type <http://www.w3.org/ns/r2rml#SubjectMap> ;
+           <http://www.w3.org/ns/r2rml#template> "http://example.org/resource/especialidade/{nome_especialidade}" .
+
+_:genid75 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#Especialidade> .
+
+_:genid76 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> rdf:type .
+
+_:genid78 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://semweb.mmlab.be/ns/rml#reference> "nome_especialidade" .
+
+_:genid79 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#nomeEspecialidade> .
+
+_:genid81 rdf:type <http://www.w3.org/ns/r2rml#RefObjectMap> ;
+           <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://example.com/deporte_0> .
+
+_:genid82 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#relacionadaCon> .
+
+
+###  http://example.com/provincias_0
+<http://example.com/provincias_0> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#TriplesMap> ;
+                                  <http://semweb.mmlab.be/ns/rml#logicalSource> _:genid84 ;
+                                  <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid85 ,
+                                                                                  _:genid88 ,
+                                                                                  _:genid91 ;
+                                  <http://www.w3.org/ns/r2rml#subjectMap> _:genid94 .
+
+_:genid84 rdf:type <http://semweb.mmlab.be/ns/rml#LogicalSource> ;
+           <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> ;
+           <http://semweb.mmlab.be/ns/rml#source> "clean_entidades_deportivas.csv" .
+
+_:genid85 <http://www.w3.org/ns/r2rml#objectMap> _:genid86 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid87 .
+
+_:genid88 <http://www.w3.org/ns/r2rml#objectMap> _:genid89 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid90 .
+
+_:genid91 <http://www.w3.org/ns/r2rml#objectMap> _:genid92 ;
+           <http://www.w3.org/ns/r2rml#predicateMap> _:genid93 .
+
+_:genid94 rdf:type <http://www.w3.org/ns/r2rml#SubjectMap> ;
+           <http://www.w3.org/ns/r2rml#template> "http://example.org/resource/provincia/{codigo_provincia}" .
+
+_:genid86 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://semweb.mmlab.be/ns/rml#reference> "codigo_provincia" ;
+           <http://www.w3.org/ns/r2rml#datatype> xsd:int .
+
+_:genid87 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#codProvincia> .
+
+_:genid89 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#Provincia> .
+
+_:genid90 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> rdf:type .
+
+_:genid92 rdf:type <http://www.w3.org/ns/r2rml#ObjectMap> ;
+           <http://www.w3.org/ns/r2rml#template> "{wikidata_provincias} " ;
+           <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+
+_:genid93 rdf:type <http://www.w3.org/ns/r2rml#PredicateMap> ;
+           <http://www.w3.org/ns/r2rml#constant> <http://example.org/def/dep#paxinaWeb> .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

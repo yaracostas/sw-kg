@@ -1,0 +1,976 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "_:genid10",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#RefObjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#parentTriplesMap" : [ {
+    "@id" : "http://example.com/provincias_0"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#estaEn"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid13"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#Concello"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#SubjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://example.org/resource/concello/{codigo_concello}"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "http://semweb.mmlab.be/ns/rml#referenceFormulation" : [ {
+    "@id" : "http://semweb.mmlab.be/ns/ql#CSV"
+  } ],
+  "http://semweb.mmlab.be/ns/rml#source" : [ {
+    "@value" : "clean_entidades_deportivas.csv"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semweb.mmlab.be/ns/rml#LogicalSource"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid18"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid19"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#Deporte"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "http://semweb.mmlab.be/ns/rml#referenceFormulation" : [ {
+    "@id" : "http://semweb.mmlab.be/ns/ql#CSV"
+  } ],
+  "http://semweb.mmlab.be/ns/rml#source" : [ {
+    "@value" : "clean_entidades_deportivas.csv"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semweb.mmlab.be/ns/rml#LogicalSource"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid21"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid22"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "{web_modalidades} "
+  } ],
+  "http://www.w3.org/ns/r2rml#termType" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#IRI"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#paxinaWeb"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#SubjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://example.org/resource/deporte/{deporte}"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "http://semweb.mmlab.be/ns/rml#referenceFormulation" : [ {
+    "@id" : "http://semweb.mmlab.be/ns/ql#CSV"
+  } ],
+  "http://semweb.mmlab.be/ns/rml#source" : [ {
+    "@value" : "clean_entidades_deportivas.csv"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semweb.mmlab.be/ns/rml#LogicalSource"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid26"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#RefObjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#parentTriplesMap" : [ {
+    "@id" : "http://example.com/concellos_0"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#estaEn"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid29"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid30"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#Enderezo"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid32"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid33"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "direcion"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#nomeRua"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid35"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid36"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "codigo_postal"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#codigoPostal"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#SubjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://example.org/resource/enderezo/{codigo_postal}"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "http://semweb.mmlab.be/ns/rml#referenceFormulation" : [ {
+    "@id" : "http://semweb.mmlab.be/ns/ql#CSV"
+  } ],
+  "http://semweb.mmlab.be/ns/rml#source" : [ {
+    "@value" : "clean_entidades_deportivas.csv"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semweb.mmlab.be/ns/rml#LogicalSource"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid40"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid41"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "{wikidata_concellos} "
+  } ],
+  "http://www.w3.org/ns/r2rml#termType" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#IRI"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#Equipo"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid43"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid44"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "nome"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#nome"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid46"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid47"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "tipo_entidade"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#tipoEntidade"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid49"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid50"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "telefono1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#paxinaWeb"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#telefono1"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid52"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid53"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "telefono2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#telefono2"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid55"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid56"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "nif"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#nif"
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid58"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid59"
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "data_alta"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#dataAlta"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid61"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid62"
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "web"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#paxinaWeb"
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid64"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid65"
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "numero"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#str"
+  } ]
+}, {
+  "@id" : "_:genid65",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#numero"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid67"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid68"
+  } ]
+}, {
+  "@id" : "_:genid67",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#RefObjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#parentTriplesMap" : [ {
+    "@id" : "http://example.com/deporte_0"
+  } ]
+}, {
+  "@id" : "_:genid68",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#xoga"
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid70"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid71"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "codigo_concello"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ]
+}, {
+  "@id" : "_:genid70",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#RefObjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#parentTriplesMap" : [ {
+    "@id" : "http://example.com/enderezo_0"
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#resideEn"
+  } ]
+}, {
+  "@id" : "_:genid72",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#SubjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://example.org/resource/equipo/{nome}"
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "http://semweb.mmlab.be/ns/rml#referenceFormulation" : [ {
+    "@id" : "http://semweb.mmlab.be/ns/ql#CSV"
+  } ],
+  "http://semweb.mmlab.be/ns/rml#source" : [ {
+    "@value" : "clean_entidades_deportivas.csv"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semweb.mmlab.be/ns/rml#LogicalSource"
+  } ]
+}, {
+  "@id" : "_:genid74",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid75"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid76"
+  } ]
+}, {
+  "@id" : "_:genid75",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#Especialidade"
+  } ]
+}, {
+  "@id" : "_:genid76",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid78"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid79"
+  } ]
+}, {
+  "@id" : "_:genid78",
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "nome_especialidade"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ]
+}, {
+  "@id" : "_:genid79",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#nomeEspecialidade"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#codigoConcello"
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid81"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid82"
+  } ]
+}, {
+  "@id" : "_:genid81",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#RefObjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#parentTriplesMap" : [ {
+    "@id" : "http://example.com/deporte_0"
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#relacionadaCon"
+  } ]
+}, {
+  "@id" : "_:genid83",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#SubjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://example.org/resource/especialidade/{nome_especialidade}"
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "http://semweb.mmlab.be/ns/rml#referenceFormulation" : [ {
+    "@id" : "http://semweb.mmlab.be/ns/ql#CSV"
+  } ],
+  "http://semweb.mmlab.be/ns/rml#source" : [ {
+    "@value" : "clean_entidades_deportivas.csv"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://semweb.mmlab.be/ns/rml#LogicalSource"
+  } ]
+}, {
+  "@id" : "_:genid85",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid86"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid87"
+  } ]
+}, {
+  "@id" : "_:genid86",
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "codigo_provincia"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "_:genid87",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#codProvincia"
+  } ]
+}, {
+  "@id" : "_:genid88",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid89"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid90"
+  } ]
+}, {
+  "@id" : "_:genid89",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#Provincia"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid10"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "_:genid90",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  } ]
+}, {
+  "@id" : "_:genid91",
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "_:genid92"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateMap" : [ {
+    "@id" : "_:genid93"
+  } ]
+}, {
+  "@id" : "_:genid92",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#ObjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "{wikidata_provincias} "
+  } ],
+  "http://www.w3.org/ns/r2rml#termType" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#IRI"
+  } ]
+}, {
+  "@id" : "_:genid93",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#PredicateMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#constant" : [ {
+    "@id" : "http://example.org/def/dep#paxinaWeb"
+  } ]
+}, {
+  "@id" : "_:genid94",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#SubjectMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://example.org/resource/provincia/{codigo_provincia}"
+  } ]
+}, {
+  "@id" : "http://example.com/concellos_0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "_:genid2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid9"
+  }, {
+    "@id" : "_:genid12"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "_:genid15"
+  } ]
+}, {
+  "@id" : "http://example.com/deporte_0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "_:genid16"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "_:genid17"
+  }, {
+    "@id" : "_:genid20"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "http://example.com/enderezo_0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "_:genid24"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "_:genid25"
+  }, {
+    "@id" : "_:genid28"
+  }, {
+    "@id" : "_:genid31"
+  }, {
+    "@id" : "_:genid34"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "_:genid37"
+  } ]
+}, {
+  "@id" : "http://example.com/equipos_0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "_:genid38"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "_:genid39"
+  }, {
+    "@id" : "_:genid42"
+  }, {
+    "@id" : "_:genid45"
+  }, {
+    "@id" : "_:genid48"
+  }, {
+    "@id" : "_:genid51"
+  }, {
+    "@id" : "_:genid54"
+  }, {
+    "@id" : "_:genid57"
+  }, {
+    "@id" : "_:genid60"
+  }, {
+    "@id" : "_:genid63"
+  }, {
+    "@id" : "_:genid66"
+  }, {
+    "@id" : "_:genid69"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "_:genid72"
+  } ]
+}, {
+  "@id" : "http://example.com/especialidade_0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "_:genid73"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "_:genid74"
+  }, {
+    "@id" : "_:genid77"
+  }, {
+    "@id" : "_:genid80"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "_:genid83"
+  } ]
+}, {
+  "@id" : "http://example.com/provincias_0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "_:genid84"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "_:genid85"
+  }, {
+    "@id" : "_:genid88"
+  }, {
+    "@id" : "_:genid91"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "_:genid94"
+  } ]
+}, {
+  "@id" : "http://semweb.mmlab.be/ns/rml#LogicalSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://semweb.mmlab.be/ns/rml#logicalSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://semweb.mmlab.be/ns/rml#reference",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://semweb.mmlab.be/ns/rml#referenceFormulation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://semweb.mmlab.be/ns/rml#source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#ObjectMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#PredicateMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#RefObjectMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#SubjectMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#TriplesMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#constant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#datatype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#objectMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#parentTriplesMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#predicateMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#predicateObjectMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#subjectMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#template",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#termType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

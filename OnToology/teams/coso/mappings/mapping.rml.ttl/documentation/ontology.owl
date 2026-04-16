@@ -1,0 +1,665 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rml="http://semweb.mmlab.be/ns/rml#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:r2rml="http://www.w3.org/ns/r2rml#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#logicalSource -->
+
+
+    <AnnotationProperty rdf:about="http://semweb.mmlab.be/ns/rml#logicalSource"/>
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#reference -->
+
+
+    <AnnotationProperty rdf:about="http://semweb.mmlab.be/ns/rml#reference"/>
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#referenceFormulation -->
+
+
+    <AnnotationProperty rdf:about="http://semweb.mmlab.be/ns/rml#referenceFormulation"/>
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#source -->
+
+
+    <AnnotationProperty rdf:about="http://semweb.mmlab.be/ns/rml#source"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#constant -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#constant"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#datatype -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#datatype"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#objectMap -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#objectMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#parentTriplesMap -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#parentTriplesMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#predicateMap -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#predicateMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#predicateObjectMap -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#predicateObjectMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#subjectMap -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#subjectMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#template -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#template"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#termType -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#termType"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#LogicalSource -->
+
+
+    <Class rdf:about="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#ObjectMap -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/r2rml#ObjectMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#PredicateMap -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/r2rml#PredicateMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#RefObjectMap -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/r2rml#RefObjectMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#SubjectMap -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/r2rml#SubjectMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#TriplesMap -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/r2rml#TriplesMap"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/concellos_0 -->
+
+
+    <NamedIndividual rdf:about="http://example.com/concellos_0">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:nodeID="genid2"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid3"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid6"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid9"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid12"/>
+        <r2rml:subjectMap rdf:nodeID="genid15"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid2">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>clean_entidades_deportivas.csv</rml:source>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid3">
+        <r2rml:objectMap rdf:nodeID="genid4"/>
+        <r2rml:predicateMap rdf:nodeID="genid5"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid6">
+        <r2rml:objectMap rdf:nodeID="genid7"/>
+        <r2rml:predicateMap rdf:nodeID="genid8"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid9">
+        <r2rml:objectMap rdf:nodeID="genid10"/>
+        <r2rml:predicateMap rdf:nodeID="genid11"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid12">
+        <r2rml:objectMap rdf:nodeID="genid13"/>
+        <r2rml:predicateMap rdf:nodeID="genid14"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid15">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <r2rml:template>http://example.org/resource/concello/{codigo_concello}</r2rml:template>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid4">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:template>{wikidata_concellos} </r2rml:template>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid5">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#paxinaWeb"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid7">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>codigo_concello</rml:reference>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid8">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#codigoConcello"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid10">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#RefObjectMap"/>
+        <r2rml:parentTriplesMap rdf:resource="http://example.com/provincias_0"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid11">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#estaEn"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid13">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#Concello"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid14">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/deporte_0 -->
+
+
+    <NamedIndividual rdf:about="http://example.com/deporte_0">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:nodeID="genid16"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid17"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid20"/>
+        <r2rml:subjectMap rdf:nodeID="genid23"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid16">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>clean_entidades_deportivas.csv</rml:source>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid17">
+        <r2rml:objectMap rdf:nodeID="genid18"/>
+        <r2rml:predicateMap rdf:nodeID="genid19"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid20">
+        <r2rml:objectMap rdf:nodeID="genid21"/>
+        <r2rml:predicateMap rdf:nodeID="genid22"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid23">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <r2rml:template>http://example.org/resource/deporte/{deporte}</r2rml:template>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid18">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#Deporte"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid19">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid21">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:template>{web_modalidades} </r2rml:template>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid22">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#paxinaWeb"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/enderezo_0 -->
+
+
+    <NamedIndividual rdf:about="http://example.com/enderezo_0">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:nodeID="genid24"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid25"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid28"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid31"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid34"/>
+        <r2rml:subjectMap rdf:nodeID="genid37"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid24">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>clean_entidades_deportivas.csv</rml:source>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid25">
+        <r2rml:objectMap rdf:nodeID="genid26"/>
+        <r2rml:predicateMap rdf:nodeID="genid27"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid28">
+        <r2rml:objectMap rdf:nodeID="genid29"/>
+        <r2rml:predicateMap rdf:nodeID="genid30"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid31">
+        <r2rml:objectMap rdf:nodeID="genid32"/>
+        <r2rml:predicateMap rdf:nodeID="genid33"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid34">
+        <r2rml:objectMap rdf:nodeID="genid35"/>
+        <r2rml:predicateMap rdf:nodeID="genid36"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid37">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <r2rml:template>http://example.org/resource/enderezo/{codigo_postal}</r2rml:template>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid26">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#RefObjectMap"/>
+        <r2rml:parentTriplesMap rdf:resource="http://example.com/concellos_0"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid27">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#estaEn"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid29">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#Enderezo"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid30">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid32">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>direcion</rml:reference>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid33">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#nomeRua"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid35">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>codigo_postal</rml:reference>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid36">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#codigoPostal"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/equipos_0 -->
+
+
+    <NamedIndividual rdf:about="http://example.com/equipos_0">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:nodeID="genid38"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid39"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid42"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid45"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid48"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid51"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid54"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid57"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid60"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid63"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid66"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid69"/>
+        <r2rml:subjectMap rdf:nodeID="genid72"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid38">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>clean_entidades_deportivas.csv</rml:source>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid39">
+        <r2rml:objectMap rdf:nodeID="genid40"/>
+        <r2rml:predicateMap rdf:nodeID="genid41"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid42">
+        <r2rml:objectMap rdf:nodeID="genid43"/>
+        <r2rml:predicateMap rdf:nodeID="genid44"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid45">
+        <r2rml:objectMap rdf:nodeID="genid46"/>
+        <r2rml:predicateMap rdf:nodeID="genid47"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid48">
+        <r2rml:objectMap rdf:nodeID="genid49"/>
+        <r2rml:predicateMap rdf:nodeID="genid50"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid51">
+        <r2rml:objectMap rdf:nodeID="genid52"/>
+        <r2rml:predicateMap rdf:nodeID="genid53"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid54">
+        <r2rml:objectMap rdf:nodeID="genid55"/>
+        <r2rml:predicateMap rdf:nodeID="genid56"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid57">
+        <r2rml:objectMap rdf:nodeID="genid58"/>
+        <r2rml:predicateMap rdf:nodeID="genid59"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid60">
+        <r2rml:objectMap rdf:nodeID="genid61"/>
+        <r2rml:predicateMap rdf:nodeID="genid62"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid63">
+        <r2rml:objectMap rdf:nodeID="genid64"/>
+        <r2rml:predicateMap rdf:nodeID="genid65"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid66">
+        <r2rml:objectMap rdf:nodeID="genid67"/>
+        <r2rml:predicateMap rdf:nodeID="genid68"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid69">
+        <r2rml:objectMap rdf:nodeID="genid70"/>
+        <r2rml:predicateMap rdf:nodeID="genid71"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid72">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <r2rml:template>http://example.org/resource/equipo/{nome}</r2rml:template>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid40">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#Equipo"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid41">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid43">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>nome</rml:reference>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid44">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#nome"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid46">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>tipo_entidade</rml:reference>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid47">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#tipoEntidade"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid49">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>telefono1</rml:reference>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid50">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#telefono1"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid52">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>telefono2</rml:reference>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid53">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#telefono2"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid55">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>nif</rml:reference>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid56">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#nif"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid58">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>data_alta</rml:reference>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid59">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#dataAlta"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid61">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>web</rml:reference>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid62">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#paxinaWeb"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid64">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>numero</rml:reference>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#str"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid65">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#numero"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid67">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#RefObjectMap"/>
+        <r2rml:parentTriplesMap rdf:resource="http://example.com/deporte_0"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid68">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#xoga"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid70">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#RefObjectMap"/>
+        <r2rml:parentTriplesMap rdf:resource="http://example.com/enderezo_0"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid71">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#resideEn"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/especialidade_0 -->
+
+
+    <NamedIndividual rdf:about="http://example.com/especialidade_0">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:nodeID="genid73"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid74"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid77"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid80"/>
+        <r2rml:subjectMap rdf:nodeID="genid83"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid73">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>clean_entidades_deportivas.csv</rml:source>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid74">
+        <r2rml:objectMap rdf:nodeID="genid75"/>
+        <r2rml:predicateMap rdf:nodeID="genid76"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid77">
+        <r2rml:objectMap rdf:nodeID="genid78"/>
+        <r2rml:predicateMap rdf:nodeID="genid79"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid80">
+        <r2rml:objectMap rdf:nodeID="genid81"/>
+        <r2rml:predicateMap rdf:nodeID="genid82"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid83">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <r2rml:template>http://example.org/resource/especialidade/{nome_especialidade}</r2rml:template>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid75">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#Especialidade"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid76">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid78">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>nome_especialidade</rml:reference>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid79">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#nomeEspecialidade"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid81">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#RefObjectMap"/>
+        <r2rml:parentTriplesMap rdf:resource="http://example.com/deporte_0"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid82">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#relacionadaCon"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/provincias_0 -->
+
+
+    <NamedIndividual rdf:about="http://example.com/provincias_0">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:nodeID="genid84"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid85"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid88"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid91"/>
+        <r2rml:subjectMap rdf:nodeID="genid94"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid84">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>clean_entidades_deportivas.csv</rml:source>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid85">
+        <r2rml:objectMap rdf:nodeID="genid86"/>
+        <r2rml:predicateMap rdf:nodeID="genid87"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid88">
+        <r2rml:objectMap rdf:nodeID="genid89"/>
+        <r2rml:predicateMap rdf:nodeID="genid90"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid91">
+        <r2rml:objectMap rdf:nodeID="genid92"/>
+        <r2rml:predicateMap rdf:nodeID="genid93"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid94">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <r2rml:template>http://example.org/resource/provincia/{codigo_provincia}</r2rml:template>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid86">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>codigo_provincia</rml:reference>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid87">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#codProvincia"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid89">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#Provincia"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid90">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid92">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:template>{wikidata_provincias} </r2rml:template>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid93">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://example.org/def/dep#paxinaWeb"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
