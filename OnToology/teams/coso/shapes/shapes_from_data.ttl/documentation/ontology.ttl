@@ -1,0 +1,277 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/ns/shacl#dataType
+<http://www.w3.org/ns/shacl#dataType> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/shacl#in
+<http://www.w3.org/ns/shacl#in> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/shacl#maxCount
+<http://www.w3.org/ns/shacl#maxCount> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/shacl#minCount
+<http://www.w3.org/ns/shacl#minCount> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/shacl#node
+<http://www.w3.org/ns/shacl#node> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/shacl#nodeKind
+<http://www.w3.org/ns/shacl#nodeKind> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/shacl#path
+<http://www.w3.org/ns/shacl#path> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/shacl#property
+<http://www.w3.org/ns/shacl#property> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/shacl#targetClass
+<http://www.w3.org/ns/shacl#targetClass> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/ns/shacl#NodeShape
+<http://www.w3.org/ns/shacl#NodeShape> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/shacl#PropertyShape
+<http://www.w3.org/ns/shacl#PropertyShape> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://weso.es/shapes/Concello
+<http://weso.es/shapes/Concello> rdf:type owl:NamedIndividual ,
+                                          <http://www.w3.org/ns/shacl#NodeShape> ;
+                                 <http://www.w3.org/ns/shacl#property> _:genid2 ,
+                                                                       _:genid3 ,
+                                                                       _:genid4 ,
+                                                                       _:genid6 ;
+                                 <http://www.w3.org/ns/shacl#targetClass> <http://example.org/def/dep#Concello> .
+
+_:genid2 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+          <http://www.w3.org/ns/shacl#dataType> xsd:string ;
+          <http://www.w3.org/ns/shacl#maxCount> 1 ;
+          <http://www.w3.org/ns/shacl#minCount> 1 ;
+          <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#codigoConcello> .
+
+_:genid3 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+          <http://www.w3.org/ns/shacl#maxCount> 1 ;
+          <http://www.w3.org/ns/shacl#minCount> 1 ;
+          <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
+          <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#paxinaWeb> .
+
+_:genid4 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+          <http://www.w3.org/ns/shacl#in> [ ] ;
+<http://www.w3.org/ns/shacl#maxCount> 1 ;
+<http://www.w3.org/ns/shacl#minCount> 1 ;
+<http://www.w3.org/ns/shacl#path> rdf:type .
+
+_:genid6 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+          <http://www.w3.org/ns/shacl#maxCount> 1 ;
+          <http://www.w3.org/ns/shacl#minCount> 1 ;
+          <http://www.w3.org/ns/shacl#node> <http://weso.es/shapes/Provincia> ;
+          <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#estaEn> .
+
+
+###  http://weso.es/shapes/Deporte
+<http://weso.es/shapes/Deporte> rdf:type owl:NamedIndividual ,
+                                         <http://www.w3.org/ns/shacl#NodeShape> ;
+                                <http://www.w3.org/ns/shacl#property> _:genid7 ,
+                                                                      _:genid8 ;
+                                <http://www.w3.org/ns/shacl#targetClass> <http://example.org/def/dep#Deporte> .
+
+_:genid7 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+          <http://www.w3.org/ns/shacl#maxCount> 1 ;
+          <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
+          <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#paxinaWeb> .
+
+_:genid8 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+          <http://www.w3.org/ns/shacl#in> [ ] ;
+<http://www.w3.org/ns/shacl#maxCount> 1 ;
+<http://www.w3.org/ns/shacl#minCount> 1 ;
+<http://www.w3.org/ns/shacl#path> rdf:type .
+
+
+###  http://weso.es/shapes/Enderezo
+<http://weso.es/shapes/Enderezo> rdf:type owl:NamedIndividual ,
+                                          <http://www.w3.org/ns/shacl#NodeShape> ;
+                                 <http://www.w3.org/ns/shacl#property> _:genid10 ,
+                                                                       _:genid11 ,
+                                                                       _:genid12 ,
+                                                                       _:genid13 ;
+                                 <http://www.w3.org/ns/shacl#targetClass> <http://example.org/def/dep#Enderezo> .
+
+_:genid10 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#dataType> xsd:int ;
+           <http://www.w3.org/ns/shacl#maxCount> 1 ;
+           <http://www.w3.org/ns/shacl#minCount> 1 ;
+           <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#codigoPostal> .
+
+_:genid11 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#minCount> 1 ;
+           <http://www.w3.org/ns/shacl#node> <http://weso.es/shapes/Concello> ;
+           <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#estaEn> .
+
+_:genid12 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#dataType> xsd:string ;
+           <http://www.w3.org/ns/shacl#minCount> 1 ;
+           <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#nomeRua> .
+
+_:genid13 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#in> [ ] ;
+<http://www.w3.org/ns/shacl#maxCount> 1 ;
+<http://www.w3.org/ns/shacl#minCount> 1 ;
+<http://www.w3.org/ns/shacl#path> rdf:type .
+
+
+###  http://weso.es/shapes/Equipo
+<http://weso.es/shapes/Equipo> rdf:type owl:NamedIndividual ,
+                                        <http://www.w3.org/ns/shacl#NodeShape> ;
+                               <http://www.w3.org/ns/shacl#property> _:genid15 ,
+                                                                     _:genid16 ,
+                                                                     _:genid17 ,
+                                                                     _:genid18 ,
+                                                                     _:genid19 ,
+                                                                     _:genid21 ,
+                                                                     _:genid22 ,
+                                                                     _:genid23 ,
+                                                                     _:genid24 ,
+                                                                     _:genid25 ,
+                                                                     _:genid26 ;
+                               <http://www.w3.org/ns/shacl#targetClass> <http://example.org/def/dep#Equipo> .
+
+_:genid15 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#dataType> xsd:string ;
+           <http://www.w3.org/ns/shacl#maxCount> 1 ;
+           <http://www.w3.org/ns/shacl#minCount> 1 ;
+           <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#tipoEntidade> .
+
+_:genid16 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#dataType> xsd:str ;
+           <http://www.w3.org/ns/shacl#minCount> 1 ;
+           <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#numero> .
+
+_:genid17 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#maxCount> 1 ;
+           <http://www.w3.org/ns/shacl#node> <http://weso.es/shapes/Deporte> ;
+           <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#xoga> .
+
+_:genid18 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#dataType> xsd:string ;
+           <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#telefono2> .
+
+_:genid19 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#in> [ ] ;
+<http://www.w3.org/ns/shacl#maxCount> 1 ;
+<http://www.w3.org/ns/shacl#minCount> 1 ;
+<http://www.w3.org/ns/shacl#path> rdf:type .
+
+_:genid21 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#dataType> xsd:string ;
+           <http://www.w3.org/ns/shacl#maxCount> 1 ;
+           <http://www.w3.org/ns/shacl#minCount> 1 ;
+           <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#nome> .
+
+_:genid22 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#dataType> xsd:string ;
+           <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#nif> .
+
+_:genid23 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#dataType> xsd:date ;
+           <http://www.w3.org/ns/shacl#minCount> 1 ;
+           <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#dataAlta> .
+
+_:genid24 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#dataType> xsd:string ;
+           <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#telefono1> .
+
+_:genid25 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#maxCount> 1 ;
+           <http://www.w3.org/ns/shacl#node> <http://weso.es/shapes/Enderezo> ;
+           <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#resideEn> .
+
+_:genid26 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#dataType> xsd:string ;
+           <http://www.w3.org/ns/shacl#maxCount> 1 ;
+           <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#paxinaWeb> .
+
+
+###  http://weso.es/shapes/Especialidade
+<http://weso.es/shapes/Especialidade> rdf:type owl:NamedIndividual ,
+                                               <http://www.w3.org/ns/shacl#NodeShape> ;
+                                      <http://www.w3.org/ns/shacl#property> _:genid27 ,
+                                                                            _:genid28 ,
+                                                                            _:genid29 ;
+                                      <http://www.w3.org/ns/shacl#targetClass> <http://example.org/def/dep#Especialidade> .
+
+_:genid27 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#minCount> 1 ;
+           <http://www.w3.org/ns/shacl#node> <http://weso.es/shapes/Deporte> ;
+           <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#relacionadaCon> .
+
+_:genid28 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#dataType> xsd:string ;
+           <http://www.w3.org/ns/shacl#maxCount> 1 ;
+           <http://www.w3.org/ns/shacl#minCount> 1 ;
+           <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#nomeEspecialidade> .
+
+_:genid29 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#in> [ ] ;
+<http://www.w3.org/ns/shacl#maxCount> 1 ;
+<http://www.w3.org/ns/shacl#minCount> 1 ;
+<http://www.w3.org/ns/shacl#path> rdf:type .
+
+
+###  http://weso.es/shapes/Provincia
+<http://weso.es/shapes/Provincia> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/shacl#NodeShape> ;
+                                  <http://www.w3.org/ns/shacl#property> _:genid31 ,
+                                                                        _:genid32 ,
+                                                                        _:genid33 ;
+                                  <http://www.w3.org/ns/shacl#targetClass> <http://example.org/def/dep#Provincia> .
+
+_:genid31 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#dataType> xsd:int ;
+           <http://www.w3.org/ns/shacl#maxCount> 1 ;
+           <http://www.w3.org/ns/shacl#minCount> 1 ;
+           <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#codProvincia> .
+
+_:genid32 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#maxCount> 1 ;
+           <http://www.w3.org/ns/shacl#minCount> 1 ;
+           <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
+           <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#paxinaWeb> .
+
+_:genid33 rdf:type <http://www.w3.org/ns/shacl#PropertyShape> ;
+           <http://www.w3.org/ns/shacl#in> [ ] ;
+<http://www.w3.org/ns/shacl#maxCount> 1 ;
+<http://www.w3.org/ns/shacl#minCount> 1 ;
+<http://www.w3.org/ns/shacl#path> rdf:type .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,46 @@
+{
+  "@context" : {
+    "sourceConstraintComponent" : {
+      "@id" : "http://www.w3.org/ns/shacl#sourceConstraintComponent"
+    },
+    "ValidationResult" : {
+      "@id" : "http://www.w3.org/ns/shacl#ValidationResult"
+    },
+    "resultSeverity" : {
+      "@id" : "http://www.w3.org/ns/shacl#resultSeverity"
+    },
+    "detail" : {
+      "@id" : "http://www.w3.org/ns/shacl#detail"
+    },
+    "path" : {
+      "@id" : "http://www.w3.org/ns/shacl#path"
+    },
+    "focusNode" : {
+      "@id" : "http://www.w3.org/ns/shacl#focusNode"
+    },
+    "ValidationReport" : {
+      "@id" : "http://www.w3.org/ns/shacl#ValidationReport"
+    },
+    "value" : {
+      "@id" : "http://www.w3.org/ns/shacl#value"
+    },
+    "resultPath" : {
+      "@id" : "http://www.w3.org/ns/shacl#resultPath"
+    },
+    "sourceShape" : {
+      "@id" : "http://www.w3.org/ns/shacl#sourceShape"
+    },
+    "PropertyShape" : {
+      "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+    },
+    "node" : {
+      "@id" : "http://www.w3.org/ns/shacl#node"
+    },
+    "result" : {
+      "@id" : "http://www.w3.org/ns/shacl#result"
+    },
+    "in" : {
+      "@id" : "http://www.w3.org/ns/shacl#in"
+    }
+  }
+}

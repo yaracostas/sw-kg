@@ -1,0 +1,52 @@
+{
+  "@context" : {
+    "sourceConstraintComponent" : {
+      "@id" : "http://www.w3.org/ns/shacl#sourceConstraintComponent"
+    },
+    "ValidationResult" : {
+      "@id" : "http://www.w3.org/ns/shacl#ValidationResult"
+    },
+    "resultSeverity" : {
+      "@id" : "http://www.w3.org/ns/shacl#resultSeverity"
+    },
+    "class" : {
+      "@id" : "http://www.w3.org/ns/shacl#class"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "detail" : {
+      "@id" : "http://www.w3.org/ns/shacl#detail"
+    },
+    "path" : {
+      "@id" : "http://www.w3.org/ns/shacl#path"
+    },
+    "focusNode" : {
+      "@id" : "http://www.w3.org/ns/shacl#focusNode"
+    },
+    "nodeKind" : {
+      "@id" : "http://www.w3.org/ns/shacl#nodeKind"
+    },
+    "ValidationReport" : {
+      "@id" : "http://www.w3.org/ns/shacl#ValidationReport"
+    },
+    "value" : {
+      "@id" : "http://www.w3.org/ns/shacl#value"
+    },
+    "resultPath" : {
+      "@id" : "http://www.w3.org/ns/shacl#resultPath"
+    },
+    "datatype" : {
+      "@id" : "http://www.w3.org/ns/shacl#datatype"
+    },
+    "sourceShape" : {
+      "@id" : "http://www.w3.org/ns/shacl#sourceShape"
+    },
+    "node" : {
+      "@id" : "http://www.w3.org/ns/shacl#node"
+    },
+    "result" : {
+      "@id" : "http://www.w3.org/ns/shacl#result"
+    }
+  }
+}

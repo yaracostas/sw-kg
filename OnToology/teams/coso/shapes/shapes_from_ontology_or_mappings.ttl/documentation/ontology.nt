@@ -1,0 +1,268 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/shacl#class
+<http://www.w3.org/ns/shacl#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#datatype
+<http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#maxInclusive
+<http://www.w3.org/ns/shacl#maxInclusive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#minInclusive
+<http://www.w3.org/ns/shacl#minInclusive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#name
+<http://www.w3.org/ns/shacl#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#node
+<http://www.w3.org/ns/shacl#node> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#nodeKind
+<http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#path
+<http://www.w3.org/ns/shacl#path> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#pattern
+<http://www.w3.org/ns/shacl#pattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#property
+<http://www.w3.org/ns/shacl#property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#targetClass
+<http://www.w3.org/ns/shacl#targetClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/shacl#NodeShape
+<http://www.w3.org/ns/shacl#NodeShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/shacl#PropertyShape
+<http://www.w3.org/ns/shacl#PropertyShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://example.com/concellos_0/shape
+<http://example.com/concellos_0/shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://example.com/concellos_0/shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<http://example.com/concellos_0/shape> <http://www.w3.org/2000/01/rdf-schema#label> "Concello" .
+<http://example.com/concellos_0/shape> <http://www.w3.org/ns/shacl#name> "Concello" .
+<http://example.com/concellos_0/shape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<http://example.com/concellos_0/shape> <http://www.w3.org/ns/shacl#pattern> "http://example.org/resource/concello/.*" .
+<http://example.com/concellos_0/shape> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#4534900f8ca4adcbb4c58c6c758b29a6> .
+<http://example.com/concellos_0/shape> <http://www.w3.org/ns/shacl#property> _:genid2 .
+_:genid2 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#codigoConcello> .
+_:genid2 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<http://example.com/concellos_0/shape> <http://www.w3.org/ns/shacl#property> _:genid3 .
+_:genid3 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#paxinaWeb> .
+_:genid3 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+_:genid3 <http://www.w3.org/ns/shacl#name> "paxina web" .
+_:genid3 <http://www.w3.org/2000/01/rdf-schema#label> "paxina web" .
+<http://example.com/concellos_0/shape> <http://www.w3.org/ns/shacl#property> _:genid4 .
+_:genid4 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#estaEn> .
+_:genid4 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+_:genid4 <http://www.w3.org/ns/shacl#node> <http://example.com/provincias_0/shape> .
+_:genid4 <http://www.w3.org/ns/shacl#name> "esta en" .
+_:genid4 <http://www.w3.org/ns/shacl#class> <http://example.org/def/dep#Provincia> .
+_:genid4 <http://www.w3.org/2000/01/rdf-schema#label> "esta en" .
+<http://example.com/concellos_0/shape> <http://www.w3.org/ns/shacl#targetClass> <http://example.org/def/dep#Concello> .
+# 
+# http://example.com/deporte_0/shape
+<http://example.com/deporte_0/shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://example.com/deporte_0/shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<http://example.com/deporte_0/shape> <http://www.w3.org/2000/01/rdf-schema#label> "Deporte" .
+<http://example.com/deporte_0/shape> <http://www.w3.org/ns/shacl#name> "Deporte" .
+<http://example.com/deporte_0/shape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<http://example.com/deporte_0/shape> <http://www.w3.org/ns/shacl#pattern> "http://example.org/resource/deporte/.*" .
+<http://example.com/deporte_0/shape> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#4534900f8ca4adcbb4c58c6c758b29a6> .
+<http://example.com/deporte_0/shape> <http://www.w3.org/ns/shacl#property> _:genid5 .
+_:genid5 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#paxinaWeb> .
+_:genid5 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+_:genid5 <http://www.w3.org/ns/shacl#name> "paxina web" .
+_:genid5 <http://www.w3.org/2000/01/rdf-schema#label> "paxina web" .
+<http://example.com/deporte_0/shape> <http://www.w3.org/ns/shacl#targetClass> <http://example.org/def/dep#Deporte> .
+# 
+# http://example.com/enderezo_0/shape
+<http://example.com/enderezo_0/shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://example.com/enderezo_0/shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<http://example.com/enderezo_0/shape> <http://www.w3.org/2000/01/rdf-schema#label> "Enderezo" .
+<http://example.com/enderezo_0/shape> <http://www.w3.org/ns/shacl#name> "Enderezo" .
+<http://example.com/enderezo_0/shape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<http://example.com/enderezo_0/shape> <http://www.w3.org/ns/shacl#pattern> "http://example.org/resource/enderezo/.*" .
+<http://example.com/enderezo_0/shape> <http://www.w3.org/ns/shacl#property> _:genid6 .
+_:genid6 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#nomeRua> .
+_:genid6 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+_:genid6 <http://www.w3.org/ns/shacl#name> "nome rua" .
+_:genid6 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#str> .
+_:genid6 <http://www.w3.org/2000/01/rdf-schema#label> "nome rua" .
+<http://example.com/enderezo_0/shape> <http://www.w3.org/ns/shacl#property> _:genid7 .
+_:genid7 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#codigoPostal> .
+_:genid7 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+_:genid7 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#int> .
+<http://example.com/enderezo_0/shape> <http://www.w3.org/ns/shacl#property> _:genid8 .
+_:genid8 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#estaEn> .
+_:genid8 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+_:genid8 <http://www.w3.org/ns/shacl#node> <http://example.com/concellos_0/shape> .
+_:genid8 <http://www.w3.org/ns/shacl#name> "esta en" .
+_:genid8 <http://www.w3.org/ns/shacl#class> <http://example.org/def/dep#Provincia> .
+_:genid8 <http://www.w3.org/2000/01/rdf-schema#label> "esta en" .
+<http://example.com/enderezo_0/shape> <http://www.w3.org/ns/shacl#targetClass> <http://example.org/def/dep#Enderezo> .
+# 
+# http://example.com/equipos_0/shape
+<http://example.com/equipos_0/shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://example.com/equipos_0/shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<http://example.com/equipos_0/shape> <http://www.w3.org/2000/01/rdf-schema#label> "Equipo" .
+<http://example.com/equipos_0/shape> <http://www.w3.org/ns/shacl#name> "Equipo" .
+<http://example.com/equipos_0/shape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<http://example.com/equipos_0/shape> <http://www.w3.org/ns/shacl#pattern> "http://example.org/resource/equipo/.*" .
+<http://example.com/equipos_0/shape> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#a65ad44498f4c393f87cec3a95a76d15> .
+<http://example.com/equipos_0/shape> <http://www.w3.org/ns/shacl#property> _:genid9 .
+_:genid9 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#xoga> .
+_:genid9 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+_:genid9 <http://www.w3.org/ns/shacl#node> <http://example.com/deporte_0/shape> .
+_:genid9 <http://www.w3.org/ns/shacl#name> "xoga" .
+_:genid9 <http://www.w3.org/ns/shacl#class> <http://example.org/def/dep#Deporte> .
+_:genid9 <http://www.w3.org/2000/01/rdf-schema#label> "xoga" .
+<http://example.com/equipos_0/shape> <http://www.w3.org/ns/shacl#property> _:genid10 .
+_:genid10 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#resideEn> .
+_:genid10 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+_:genid10 <http://www.w3.org/ns/shacl#node> <http://example.com/enderezo_0/shape> .
+_:genid10 <http://www.w3.org/ns/shacl#name> "reside en" .
+_:genid10 <http://www.w3.org/ns/shacl#class> <http://example.org/def/dep#Enderezo> .
+_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "reside en" .
+<http://example.com/equipos_0/shape> <http://www.w3.org/ns/shacl#property> _:genid11 .
+_:genid11 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#dataAlta> .
+_:genid11 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+_:genid11 <http://www.w3.org/ns/shacl#name> "data alta" .
+_:genid11 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#date> .
+_:genid11 <http://www.w3.org/2000/01/rdf-schema#label> "data alta" .
+<http://example.com/equipos_0/shape> <http://www.w3.org/ns/shacl#property> _:genid12 .
+_:genid12 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#nome> .
+_:genid12 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+_:genid12 <http://www.w3.org/ns/shacl#name> "nome" .
+_:genid12 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#String> .
+_:genid12 <http://www.w3.org/2000/01/rdf-schema#label> "nome" .
+<http://example.com/equipos_0/shape> <http://www.w3.org/ns/shacl#property> _:genid13 .
+_:genid13 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#paxinaWeb> .
+_:genid13 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+_:genid13 <http://www.w3.org/ns/shacl#name> "paxina web" .
+_:genid13 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#String> .
+_:genid13 <http://www.w3.org/2000/01/rdf-schema#label> "paxina web" .
+<http://example.com/equipos_0/shape> <http://www.w3.org/ns/shacl#property> _:genid14 .
+_:genid14 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#telefono1> .
+_:genid14 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<http://example.com/equipos_0/shape> <http://www.w3.org/ns/shacl#property> _:genid15 .
+_:genid15 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#telefono2> .
+_:genid15 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<http://example.com/equipos_0/shape> <http://www.w3.org/ns/shacl#property> _:genid16 .
+_:genid16 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#tipoEntidade> .
+_:genid16 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+_:genid16 <http://www.w3.org/ns/shacl#name> "tipo entidade" .
+_:genid16 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#String> .
+_:genid16 <http://www.w3.org/2000/01/rdf-schema#label> "tipo entidade" .
+<http://example.com/equipos_0/shape> <http://www.w3.org/ns/shacl#property> _:genid17 .
+_:genid17 <http://www.w3.org/ns/shacl#pattern> "[\\-+]?[0-9]+" .
+_:genid17 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#numero> .
+_:genid17 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+_:genid17 <http://www.w3.org/ns/shacl#name> "numero" .
+_:genid17 <http://www.w3.org/ns/shacl#minInclusive> "-2147483648"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid17 <http://www.w3.org/ns/shacl#maxInclusive> "2147483647"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid17 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#str> .
+_:genid17 <http://www.w3.org/2000/01/rdf-schema#label> "numero" .
+<http://example.com/equipos_0/shape> <http://www.w3.org/ns/shacl#property> _:genid18 .
+_:genid18 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#nif> .
+_:genid18 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+_:genid18 <http://www.w3.org/ns/shacl#name> "nif" .
+_:genid18 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#String> .
+_:genid18 <http://www.w3.org/2000/01/rdf-schema#label> "nif" .
+<http://example.com/equipos_0/shape> <http://www.w3.org/ns/shacl#targetClass> <http://example.org/def/dep#Equipo> .
+# 
+# http://example.com/especialidade_0/shape
+<http://example.com/especialidade_0/shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://example.com/especialidade_0/shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<http://example.com/especialidade_0/shape> <http://www.w3.org/2000/01/rdf-schema#label> "Especialidade" .
+<http://example.com/especialidade_0/shape> <http://www.w3.org/ns/shacl#name> "Especialidade" .
+<http://example.com/especialidade_0/shape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<http://example.com/especialidade_0/shape> <http://www.w3.org/ns/shacl#pattern> "http://example.org/resource/especialidade/.*" .
+<http://example.com/especialidade_0/shape> <http://www.w3.org/ns/shacl#property> _:genid19 .
+_:genid19 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#nomeEspecialidade> .
+_:genid19 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+_:genid19 <http://www.w3.org/ns/shacl#name> "nome especialidade" .
+_:genid19 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#String> .
+_:genid19 <http://www.w3.org/2000/01/rdf-schema#label> "nome especialidade" .
+<http://example.com/especialidade_0/shape> <http://www.w3.org/ns/shacl#property> _:genid20 .
+_:genid20 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#relacionadaCon> .
+_:genid20 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+_:genid20 <http://www.w3.org/ns/shacl#node> <http://example.com/deporte_0/shape> .
+<http://example.com/especialidade_0/shape> <http://www.w3.org/ns/shacl#targetClass> <http://example.org/def/dep#Especialidade> .
+# 
+# http://example.com/provincias_0/shape
+<http://example.com/provincias_0/shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://example.com/provincias_0/shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<http://example.com/provincias_0/shape> <http://www.w3.org/2000/01/rdf-schema#label> "Provincia" .
+<http://example.com/provincias_0/shape> <http://www.w3.org/ns/shacl#name> "Provincia" .
+<http://example.com/provincias_0/shape> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<http://example.com/provincias_0/shape> <http://www.w3.org/ns/shacl#pattern> "http://example.org/resource/provincia/.*" .
+<http://example.com/provincias_0/shape> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#4534900f8ca4adcbb4c58c6c758b29a6> .
+<http://example.com/provincias_0/shape> <http://www.w3.org/ns/shacl#property> _:genid21 .
+_:genid21 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#paxinaWeb> .
+_:genid21 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+_:genid21 <http://www.w3.org/ns/shacl#name> "paxina web" .
+_:genid21 <http://www.w3.org/2000/01/rdf-schema#label> "paxina web" .
+<http://example.com/provincias_0/shape> <http://www.w3.org/ns/shacl#property> _:genid22 .
+_:genid22 <http://www.w3.org/ns/shacl#pattern> "[\\-+]?[0-9]+" .
+_:genid22 <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#codProvincia> .
+_:genid22 <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+_:genid22 <http://www.w3.org/ns/shacl#name> "cod provincia" .
+_:genid22 <http://www.w3.org/ns/shacl#minInclusive> "-2147483648"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid22 <http://www.w3.org/ns/shacl#maxInclusive> "2147483647"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid22 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#int> .
+_:genid22 <http://www.w3.org/2000/01/rdf-schema#label> "cod provincia" .
+<http://example.com/provincias_0/shape> <http://www.w3.org/ns/shacl#targetClass> <http://example.org/def/dep#Provincia> .
+# 
+# https://astrea.linkeddata.es/shapes#a65ad44498f4c393f87cec3a95a76d15
+<https://astrea.linkeddata.es/shapes#a65ad44498f4c393f87cec3a95a76d15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#a65ad44498f4c393f87cec3a95a76d15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#a65ad44498f4c393f87cec3a95a76d15> <http://www.w3.org/2000/01/rdf-schema#label> "telefono" .
+<https://astrea.linkeddata.es/shapes#a65ad44498f4c393f87cec3a95a76d15> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#int> .
+<https://astrea.linkeddata.es/shapes#a65ad44498f4c393f87cec3a95a76d15> <http://www.w3.org/ns/shacl#maxInclusive> "2147483647"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://astrea.linkeddata.es/shapes#a65ad44498f4c393f87cec3a95a76d15> <http://www.w3.org/ns/shacl#minInclusive> "-2147483648"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://astrea.linkeddata.es/shapes#a65ad44498f4c393f87cec3a95a76d15> <http://www.w3.org/ns/shacl#name> "telefono" .
+<https://astrea.linkeddata.es/shapes#a65ad44498f4c393f87cec3a95a76d15> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#a65ad44498f4c393f87cec3a95a76d15> <http://www.w3.org/ns/shacl#path> <http://example.org/def/dep#telefono> .
+<https://astrea.linkeddata.es/shapes#a65ad44498f4c393f87cec3a95a76d15> <http://www.w3.org/ns/shacl#pattern> "[\\-+]?[0-9]+" .
+# 
+# https://astrea.linkeddata.es/shapes#4534900f8ca4adcbb4c58c6c758b29a6
+<https://astrea.linkeddata.es/shapes#4534900f8ca4adcbb4c58c6c758b29a6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#4534900f8ca4adcbb4c58c6c758b29a6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#4534900f8ca4adcbb4c58c6c758b29a6> <http://www.w3.org/2000/01/rdf-schema#label> "same as" .
+<https://astrea.linkeddata.es/shapes#4534900f8ca4adcbb4c58c6c758b29a6> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://astrea.linkeddata.es/shapes#4534900f8ca4adcbb4c58c6c758b29a6> <http://www.w3.org/ns/shacl#name> "same as" .
+<https://astrea.linkeddata.es/shapes#4534900f8ca4adcbb4c58c6c758b29a6> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#4534900f8ca4adcbb4c58c6c758b29a6> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/2002/07/owl#sameAs> .
+<https://astrea.linkeddata.es/shapes#4534900f8ca4adcbb4c58c6c758b29a6> <http://www.w3.org/ns/shacl#pattern> "^(([^:/?#]+):)?(//([^/?#]*))?([^?#]*)(\\?([^#]*))?(#(.*))?" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

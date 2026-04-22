@@ -1,0 +1,31 @@
+{
+  "@context" : {
+    "node" : {
+      "@id" : "http://www.w3.org/ns/shacl#node"
+    },
+    "path" : {
+      "@id" : "http://www.w3.org/ns/shacl#path"
+    },
+    "dataType" : {
+      "@id" : "http://www.w3.org/ns/shacl#dataType"
+    },
+    "targetClass" : {
+      "@id" : "http://www.w3.org/ns/shacl#targetClass"
+    },
+    "in" : {
+      "@id" : "http://www.w3.org/ns/shacl#in"
+    },
+    "property" : {
+      "@id" : "http://www.w3.org/ns/shacl#property"
+    },
+    "nodeKind" : {
+      "@id" : "http://www.w3.org/ns/shacl#nodeKind"
+    },
+    "NodeShape" : {
+      "@id" : "http://www.w3.org/ns/shacl#NodeShape"
+    },
+    "PropertyShape" : {
+      "@id" : "http://www.w3.org/ns/shacl#PropertyShape"
+    }
+  }
+}
