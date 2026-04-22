@@ -1,0 +1,426 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:shacl="http://www.w3.org/ns/shacl#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#class -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#class"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#datatype -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#datatype"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#maxInclusive -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#maxInclusive"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#minInclusive -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#minInclusive"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#name -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#name"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#node -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#node"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#nodeKind -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#nodeKind"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#path -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#path"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#pattern -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#pattern"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#property -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#property"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#targetClass -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#targetClass"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#NodeShape -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/shacl#NodeShape"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#PropertyShape -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/shacl#PropertyShape"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/concellos_0/shape -->
+
+
+    <NamedIndividual rdf:about="http://example.com/concellos_0/shape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label>Concello</rdfs:label>
+        <shacl:name>Concello</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:pattern>http://example.org/resource/concello/.*</shacl:pattern>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#4534900f8ca4adcbb4c58c6c758b29a6"/>
+        <shacl:property rdf:nodeID="genid2"/>
+        <shacl:property rdf:nodeID="genid3"/>
+        <shacl:property rdf:nodeID="genid4"/>
+        <shacl:targetClass rdf:resource="http://example.org/def/dep#Concello"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid2">
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#codigoConcello"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid3">
+        <rdfs:label>paxina web</rdfs:label>
+        <shacl:name>paxina web</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#paxinaWeb"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid4">
+        <rdfs:label>esta en</rdfs:label>
+        <shacl:class rdf:resource="http://example.org/def/dep#Provincia"/>
+        <shacl:name>esta en</shacl:name>
+        <shacl:node rdf:resource="http://example.com/provincias_0/shape"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#estaEn"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/deporte_0/shape -->
+
+
+    <NamedIndividual rdf:about="http://example.com/deporte_0/shape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label>Deporte</rdfs:label>
+        <shacl:name>Deporte</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:pattern>http://example.org/resource/deporte/.*</shacl:pattern>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#4534900f8ca4adcbb4c58c6c758b29a6"/>
+        <shacl:property rdf:nodeID="genid5"/>
+        <shacl:targetClass rdf:resource="http://example.org/def/dep#Deporte"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid5">
+        <rdfs:label>paxina web</rdfs:label>
+        <shacl:name>paxina web</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#paxinaWeb"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/enderezo_0/shape -->
+
+
+    <NamedIndividual rdf:about="http://example.com/enderezo_0/shape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label>Enderezo</rdfs:label>
+        <shacl:name>Enderezo</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:pattern>http://example.org/resource/enderezo/.*</shacl:pattern>
+        <shacl:property rdf:nodeID="genid6"/>
+        <shacl:property rdf:nodeID="genid7"/>
+        <shacl:property rdf:nodeID="genid8"/>
+        <shacl:targetClass rdf:resource="http://example.org/def/dep#Enderezo"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid6">
+        <rdfs:label>nome rua</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#str"/>
+        <shacl:name>nome rua</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#nomeRua"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid7">
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#codigoPostal"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid8">
+        <rdfs:label>esta en</rdfs:label>
+        <shacl:class rdf:resource="http://example.org/def/dep#Provincia"/>
+        <shacl:name>esta en</shacl:name>
+        <shacl:node rdf:resource="http://example.com/concellos_0/shape"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#estaEn"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/equipos_0/shape -->
+
+
+    <NamedIndividual rdf:about="http://example.com/equipos_0/shape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label>Equipo</rdfs:label>
+        <shacl:name>Equipo</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:pattern>http://example.org/resource/equipo/.*</shacl:pattern>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#a65ad44498f4c393f87cec3a95a76d15"/>
+        <shacl:property rdf:nodeID="genid9"/>
+        <shacl:property rdf:nodeID="genid10"/>
+        <shacl:property rdf:nodeID="genid11"/>
+        <shacl:property rdf:nodeID="genid12"/>
+        <shacl:property rdf:nodeID="genid13"/>
+        <shacl:property rdf:nodeID="genid14"/>
+        <shacl:property rdf:nodeID="genid15"/>
+        <shacl:property rdf:nodeID="genid16"/>
+        <shacl:property rdf:nodeID="genid17"/>
+        <shacl:property rdf:nodeID="genid18"/>
+        <shacl:targetClass rdf:resource="http://example.org/def/dep#Equipo"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid9">
+        <rdfs:label>xoga</rdfs:label>
+        <shacl:class rdf:resource="http://example.org/def/dep#Deporte"/>
+        <shacl:name>xoga</shacl:name>
+        <shacl:node rdf:resource="http://example.com/deporte_0/shape"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#xoga"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid10">
+        <rdfs:label>reside en</rdfs:label>
+        <shacl:class rdf:resource="http://example.org/def/dep#Enderezo"/>
+        <shacl:name>reside en</shacl:name>
+        <shacl:node rdf:resource="http://example.com/enderezo_0/shape"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#resideEn"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid11">
+        <rdfs:label>data alta</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <shacl:name>data alta</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#dataAlta"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid12">
+        <rdfs:label>nome</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#String"/>
+        <shacl:name>nome</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#nome"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid13">
+        <rdfs:label>paxina web</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#String"/>
+        <shacl:name>paxina web</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#paxinaWeb"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid14">
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#telefono1"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid15">
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#telefono2"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid16">
+        <rdfs:label>tipo entidade</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#String"/>
+        <shacl:name>tipo entidade</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#tipoEntidade"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid17">
+        <rdfs:label>numero</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#str"/>
+        <shacl:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2147483647</shacl:maxInclusive>
+        <shacl:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-2147483648</shacl:minInclusive>
+        <shacl:name>numero</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#numero"/>
+        <shacl:pattern>[\-+]?[0-9]+</shacl:pattern>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid18">
+        <rdfs:label>nif</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#String"/>
+        <shacl:name>nif</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#nif"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/especialidade_0/shape -->
+
+
+    <NamedIndividual rdf:about="http://example.com/especialidade_0/shape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label>Especialidade</rdfs:label>
+        <shacl:name>Especialidade</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:pattern>http://example.org/resource/especialidade/.*</shacl:pattern>
+        <shacl:property rdf:nodeID="genid19"/>
+        <shacl:property rdf:nodeID="genid20"/>
+        <shacl:targetClass rdf:resource="http://example.org/def/dep#Especialidade"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid19">
+        <rdfs:label>nome especialidade</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#String"/>
+        <shacl:name>nome especialidade</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#nomeEspecialidade"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid20">
+        <shacl:node rdf:resource="http://example.com/deporte_0/shape"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#relacionadaCon"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/provincias_0/shape -->
+
+
+    <NamedIndividual rdf:about="http://example.com/provincias_0/shape">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label>Provincia</rdfs:label>
+        <shacl:name>Provincia</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:pattern>http://example.org/resource/provincia/.*</shacl:pattern>
+        <shacl:property rdf:resource="https://astrea.linkeddata.es/shapes#4534900f8ca4adcbb4c58c6c758b29a6"/>
+        <shacl:property rdf:nodeID="genid21"/>
+        <shacl:property rdf:nodeID="genid22"/>
+        <shacl:targetClass rdf:resource="http://example.org/def/dep#Provincia"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid21">
+        <rdfs:label>paxina web</rdfs:label>
+        <shacl:name>paxina web</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#paxinaWeb"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid22">
+        <rdfs:label>cod provincia</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <shacl:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2147483647</shacl:maxInclusive>
+        <shacl:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-2147483648</shacl:minInclusive>
+        <shacl:name>cod provincia</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#codProvincia"/>
+        <shacl:pattern>[\-+]?[0-9]+</shacl:pattern>
+    </rdf:Description>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#a65ad44498f4c393f87cec3a95a76d15 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#a65ad44498f4c393f87cec3a95a76d15">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>telefono</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <shacl:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2147483647</shacl:maxInclusive>
+        <shacl:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-2147483648</shacl:minInclusive>
+        <shacl:name>telefono</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://example.org/def/dep#telefono"/>
+        <shacl:pattern>[\-+]?[0-9]+</shacl:pattern>
+    </NamedIndividual>
+    
+
+
+    <!-- https://astrea.linkeddata.es/shapes#4534900f8ca4adcbb4c58c6c758b29a6 -->
+
+
+    <NamedIndividual rdf:about="https://astrea.linkeddata.es/shapes#4534900f8ca4adcbb4c58c6c758b29a6">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label>same as</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <shacl:name>same as</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <shacl:pattern>^(([^:/?#]+):)?(//([^/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?</shacl:pattern>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
